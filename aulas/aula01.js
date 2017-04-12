@@ -4,6 +4,7 @@ function Person (name, year) {
   this.speak = function (words) {
     console.log(this.name + ', de ' + this.year + ' anos, falou "' + words + '".')
   }
+
   this.age = function (years) {
     console.log(this.year += years || 1)
   }
